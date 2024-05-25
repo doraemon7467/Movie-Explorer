@@ -11,16 +11,17 @@ Welcome to Movie Explorer! <br><br>
 
 
 # Tech Stack💫
-- **Front End** - React.js
-- **Back End** - Node.js , Express.js
-- **API** - Open movie database(OMDb) API
+- **Front End** - React, lodash (for debouncing)
+- **Back End** - Node.js, Express, cors
+- **API** - OMDb API for fetching movie data
 
 
   
 # Features💫
-- **Search Functionality** - Users can search for movies by title.
-- **Movie Details** - When a user searches for movie, he gets basic information like title, year, and poster image.
+- **Responsive Search Input** - Users can type in the search input to find movies. The search query is debounced to limit the number of API requests, improving performance and user experience.
+- **Movie Details** - When a user searches for movie, he gets basic information like title, year,type (e.g., movie, series) and poster image.
 - **API Integration** - The application utilizes an Open movie database(OMDb) API to retrieve movie information.
+- **Debounced API Calls** - Uses lodash's debounce function to limit the frequency of API requests, reducing unnecessary load on the backend.
 - **UserInterface** - Developed a user-friendly interface with search input fields and detailed movie information card.
 
 
