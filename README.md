@@ -1,5 +1,5 @@
-# Movie Explorer!
-Welcome to Movie Explorer! <br><br>
+# Movie Explorer
+Welcome to Movie Explorer <br><br>
 
 <p align="center"><img src="poster.png" alt="app poster" height="400" width="700"></p>
 
