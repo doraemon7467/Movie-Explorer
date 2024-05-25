@@ -1,7 +1,7 @@
 # Movie Explorer!
 Welcome to Movie Explorer! <br><br>
 
-<p align="center"><img src="website.png" alt="app poster" height="400" width="700"></p>
+<p align="center"><img src="poster.png" alt="app poster" height="400" width="700"></p>
 
 # Table of Contents📄
 - Tech Stack
