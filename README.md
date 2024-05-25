@@ -1,5 +1,5 @@
-# Movie Explorer!
-Welcome to Movie Explorer! <br><br>
+# Movie Explorer
+Welcome to Movie Explorer <br><br>
 
 <p align="center"><img src="poster.png" alt="app poster" height="400" width="700"></p>
 
@@ -36,7 +36,7 @@ To run Movie Explorer locally, follow these steps:
 - Navigate to the Frontend directory: `cd Frontend`
 - Install Frontend dependencies: `npm install`
 - Create a .env file in Backend :
-   - API_KEY = {YOUR_API_KEY}
+   - `API_KEY = {YOUR_API_KEY}`
 - Run the Frontend: `npm run dev`
 - Run the Backend: `npm run dev`
   
