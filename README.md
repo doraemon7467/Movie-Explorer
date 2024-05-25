@@ -35,7 +35,7 @@ To run Movie Explorer locally, follow these steps:
 - Navigate to the Frontend directory: `cd Frontend`
 - Install Frontend dependencies: `npm install`
 - Create a .env file in Backend :
-   - API_KEY = {YOUR_API_KEY}
+   - `API_KEY = {YOUR_API_KEY}`
 - Run the Frontend: `npm run dev`
 - Run the Backend: `npm run dev`
   
