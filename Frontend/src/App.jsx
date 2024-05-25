@@ -21,7 +21,7 @@ function App() {
         setMovies([]);
         return ;
       }
-      const res = await fetch(`http://localhost:5000/api/data?search=${value}`)
+      const res = await fetch(`https://movie-explorer-backend-six.vercel.app/api/data?search=${value}`)
       const data =await res.json();
       if(data.Response === 'True')
         setMovies(data.Search);
