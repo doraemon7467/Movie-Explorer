@@ -27,7 +27,6 @@ function App() {
       else setMovies([]);
       console.log('API call triggered with search term:', value); // Add logging statement
     }, 500),
-    [API_KEY]
   );
 
   useEffect(() => {
