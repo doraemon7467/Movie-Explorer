@@ -13,7 +13,7 @@ function App() {
     setSearch(value);
     console.log('handleChange triggered with value:', value); // Add logging statement
   }
- const API_KEY =  "fc552c7e"
+ // const API_KEY =  "fc552c7e"
   const debouncedHandleClick = useCallback(
     debounce(async (value) => {
       if(!value){
@@ -27,7 +27,7 @@ function App() {
       else setMovies([]);
       console.log('API call triggered with search term:', value); // Add logging statement
     }, 500),
-    [API_KEY]
+    []
   );
 
   useEffect(() => {
