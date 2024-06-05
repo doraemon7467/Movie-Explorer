@@ -14,7 +14,6 @@ function App() {
     console.log('handleChange triggered with value:', value); // Add logging statement
   }
 
-  const API_KEY = "fc552c7e";
   const debouncedHandleClick = useCallback(
     debounce(async (value) => {
       if(!value){
